@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=EB+Garamond:ital,wght@1,800&family=Jacquard+12+Charted&family=Jersey+25&family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+
+}
+
+body {
+    background-color: #e9e4dd;
+}
+
+
+.nav {
+    width: 100%;
+    height: 50px;
+    font-family: Oswald;
+    background-color: #000000;
+    padding-bottom: 4px;
+}
+
+span {
+    color: #0051ffcb;
+    font-size: 1.5rem;
+    padding: 10px;
+    line-height: 50px;
+
+}
+
+span:hover {
+    color: #00e1ff;
+    border-bottom: 4px solid #00e1ff;
+    cursor: pointer;
+}
+
+.nav ul {
+    float: right;
+    /*padding: 15px 10px;*/
+    margin-right: 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 50px;
+}
+
+.nav ul li a {
+    color: #ffffff;
+    padding: 15px 10px;
+}
+
+.nav ul li a:hover {
+    color: #0051ffcb;
+    border-bottom: 4px solid #0051ffcb;
+}
+
+@media (max-width:768px) {
+    .nav ul {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0051ffcb;
+        text-align: center;
+        padding: 0;
+        top: 50px;
+        left: -100%;
+    }
+
+    .nav ul.slide {
+        left: 0;
+        transition: 2s;
+    }
+
+    .nav ul li {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav ul li a {
+        border: none;
+        color: #000000;
+    }
+
+    .nav ul li:hover {
+        background-color: #000000;
+    }
+
+    .nav ul li a:hover {
+        border: none;
+    }
+
+    .nav ul li:hover a {
+        color: #ffffff;
+    }
+
+
+    .hamburger {
+        float: right;
+        padding-right: 20px;
+        padding-top: 12px;
+    }
+
+    .hamburger .line {
+        width: 15px;
+        height: 5px;
+        background-color: #ffffff;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+}
+
+.container {
+    position: relative;
+    left: 300px;
+    max-width: 700px;
+    max-height: moz-fit-content;
+    background-color: #73ddf0;
+    padding-bottom: 8px;
+    border-top: 4px solid #030c42;
+    border-right: 4px solid #030c42;
+    border-left: 4px solid #1b729b;
+    border-bottom: 4px solid #000000;
+}
+
+.container .images1 img:nth-child(1) {
+    position: relative;
+    top: -1px;
+    padding: 8px;
+}
+
+.container .images1 img:nth-child(2) {
+    position: relative;
+    top: 5px;
+    left: 200px;
+}
+
+.container .header1 h1 {
+    color: #ffffff;
+    font-weight: 800;
+    padding: 8px;
+    font-family: EB Garamond;
+}
+
+.container .header1 h1:hover {
+    color: #09183acb;
+    cursor: pointer;
+}
+
+.container .answer1 p {
+    color: #616ebbea;
+    padding: 12px;
+}
+
+.container .header2 h1 {
+    color: #ffffff;
+    font-weight: 800;
+    padding: 8px;
+    font-family: EB Garamond;
+}
+
+.container .header2 h1:hover {
+    color: #09183acb;
+    cursor: pointer;
+}
+
+.container .answer2 p {
+    color: #616ebbea;
+    padding: 12px;
+}
+
+.container .images2 img:nth-child(1) {
+    position: relative;
+    top: -1px;
+    padding: 8px;
+}
+
+.container .images2 img:nth-child(2) {
+    position: relative;
+    top: -10px;
+    left: 120px;
+}
+
+.container .header3 h1 {
+    color: #ffffff;
+    font-weight: 800;
+    padding: 8px;
+    font-family: EB Garamond;
+}
+
+.container .header3 h1:hover {
+    color: #09183acb;
+    cursor: pointer;
+}
+
+.container .answer3 p {
+    color: #616ebbea;
+    padding: 12px;
+}
+
+.container .images3 img:nth-child(1) {
+    position: relative;
+    top: -1px;
+    padding: 8px;
+}
+
+.container .images3 img:nth-child(2) {
+    position: relative;
+    top: -10px;
+    left: 120px;
+}
+
+.container .header4 h1 {
+    color: #ffffff;
+    font-weight: 800;
+    padding: 8px;
+    font-family: EB Garamond;
+}
+
+.container .header4 h1:hover {
+    color: #09183acb;
+    cursor: pointer;
+}
+
+.container .answer4 p {
+    color: #616ebbea;
+    padding: 12px;
+}
+
+.container .header5 h1 {
+    color: #ffffff;
+    font-weight: 800;
+    padding: 8px;
+    font-family: EB Garamond;
+}
+
+.container .header5 h1:hover {
+    color: #09183acb;
+    cursor: pointer;
+}
+
+.container .answer5 p {
+    color: #616ebbea;
+    padding: 12px;
+}
+
+footer {
+    background-color: #162a9c;
+    border-top: 4px solid #030c42;
+    border-bottom: 4px solid #030c42;
+}
+
+footer p {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+footer p a {
+    color: #9b009b;
+}
